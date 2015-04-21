@@ -27,5 +27,5 @@ Pod::Spec.new do |s|
   s.framework = 'CoreText'
   s.framework = 'CoreLocation'
 
-  s.dependency 'OHAttributedLabel', :inhibit_warnings => true
+  s.dependency 'OHAttributedStringAdditions', :inhibit_warnings => true
 end
