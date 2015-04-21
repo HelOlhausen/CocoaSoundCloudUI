@@ -27,6 +27,6 @@ Pod::Spec.new do |s|
   s.framework = 'CoreText'
   s.framework = 'CoreLocation'
 
-  s.dependency 'CocoaSoundCloudAPI', '~> 1.0.2'
+  s.dependency 'CocoaSoundCloudAPI', '~> 1.0.2', :inhibit_warnings => true
   s.dependency 'OHAttributedLabel'
 end
