@@ -27,5 +27,5 @@ Pod::Spec.new do |s|
   s.framework = 'CoreText'
   s.framework = 'CoreLocation'
 
-  s.dependency 'OHAttributedStringAdditions'
+  s.dependency 'OHAttributedLabel'
 end
